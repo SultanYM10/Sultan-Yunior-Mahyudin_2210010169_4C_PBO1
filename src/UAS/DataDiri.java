@@ -1,7 +1,7 @@
 package UAS;
 
 public class DataDiri {
-    //Encapsulation
+    // Encapsulation dan Atribut
     private String nama;
     private String npm;
     private String kelas;
