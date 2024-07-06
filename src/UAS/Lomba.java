@@ -17,6 +17,8 @@ public class Lomba {
         System.out.println("====================================================");
 
         int jumlahPeserta = 0;
+        
+        //Perulangan
         while (true) {
             System.out.print("\nBerapa peserta yang ingin daftar: ");
             try {
