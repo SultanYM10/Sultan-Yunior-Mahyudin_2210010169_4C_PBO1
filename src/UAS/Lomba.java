@@ -29,7 +29,7 @@ public class Lomba {
             }
         }
 
-        // Array
+        // Array dan Objek
         PesertaLomba[] pesertaArray = new PesertaLomba[jumlahPeserta];
 
         for (int i = 0; i < pesertaArray.length; i++) {
@@ -81,6 +81,7 @@ public class Lomba {
                 }
             }
 
+            //Objek
             try {
                 pesertaArray[i] = new PesertaLomba(nama, npm, kelas, jenisKelamin, lomba);
             } catch (Exception e) {
