@@ -36,7 +36,7 @@ public final class PesertaLomba extends DataDiri {
         } else {
             return "Fakultas lain";
         }
-}
+    }
 
 
     public String getProdi() {

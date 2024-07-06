@@ -3,7 +3,7 @@ package UAS;
 public class DataDiri {
     //Encapsulation
     private String nama;
-    public String npm;
+    private String npm;
     private String kelas;
     private String jenisKelamin;
 
