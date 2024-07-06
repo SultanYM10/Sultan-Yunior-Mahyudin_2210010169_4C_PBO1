@@ -34,12 +34,12 @@ public class Lomba {
 
         for (int i = 0; i < pesertaArray.length; i++) {
             System.out.println("\n-Peserta " + (i + 1) + "-");
-            System.out.print("Nama: ");
+            System.out.print("Nama : ");
             String nama = input.nextLine();
             String npm;
             while (true) {
                 try {
-                    System.out.print("NPM: ");
+                    System.out.print("NPM : ");
                     npm = input.nextLine();
                     ValidasiNpm(npm);
                     break;
@@ -47,7 +47,7 @@ public class Lomba {
                     System.out.println(e.getMessage());
                 }
             }
-            System.out.print("Kelas: ");
+            System.out.print("Kelas : ");
             String kelas = input.nextLine();
             String jenisKelamin = "";
             while (true) {
@@ -95,7 +95,6 @@ public class Lomba {
             System.out.println("\n-Data Peserta " + (i + 1) + "-");
             System.out.println(pesertaArray[i].displayInfo());
         }
-
         input.close();
     }
 

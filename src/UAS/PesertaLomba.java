@@ -28,7 +28,7 @@ public final class PesertaLomba extends DataDiri {
         return Integer.parseInt(getNpm().substring(6,10));
     }
     
-    // Seleksi dan switch
+    // Seleksi dan if
     public String getFakultas() {
         String kodeFakultas = getNpm().substring(2, 4);
         if (kodeFakultas.equals("10")) {
@@ -38,7 +38,7 @@ public final class PesertaLomba extends DataDiri {
         }
     }
 
-
+    // Seleksi dan if
     public String getProdi() {
         String kodeFakultas = getNpm().substring(2, 4);
         String kodeProdi = getNpm().substring(4, 6);
